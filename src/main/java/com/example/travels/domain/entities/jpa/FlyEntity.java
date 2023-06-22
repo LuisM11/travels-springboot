@@ -1,6 +1,5 @@
 package com.example.travels.domain.entities.jpa;
 
-
 import com.example.travels.util.enums.AeroLine;
 import jakarta.persistence.*;
 import lombok.*;
@@ -14,7 +13,7 @@ import java.util.Set;
 @AllArgsConstructor
 @Data
 @Builder
-public class FlyEntity  {
+public class FlyEntity implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

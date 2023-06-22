@@ -17,7 +17,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Data
 @Builder
-public class ReservationEntity {
+public class ReservationEntity implements Serializable {
 
     @Id
     private UUID id;
