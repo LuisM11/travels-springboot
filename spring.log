@@ -1,0 +1,33 @@
+2023-06-20T23:11:48.901-05:00  INFO 53905 --- [main] com.example.travels.TravelsApplication   : Starting TravelsApplication using Java 17.0.7 with PID 53905 (/home/pipe/Documents/travels/target/classes started by pipe in /home/pipe/Documents/travels)
+2023-06-20T23:11:48.902-05:00  INFO 53905 --- [main] com.example.travels.TravelsApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-20T23:11:49.147-05:00  INFO 53905 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-20T23:11:49.185-05:00  INFO 53905 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 6 JPA repository interfaces.
+2023-06-20T23:11:49.390-05:00  INFO 53905 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-20T23:11:49.523-05:00  INFO 53905 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c534b5b
+2023-06-20T23:11:49.526-05:00  INFO 53905 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-20T23:11:49.556-05:00  INFO 53905 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-20T23:11:49.585-05:00  INFO 53905 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-20T23:11:49.789-05:00  INFO 53905 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-20T23:11:50.308-05:00  INFO 53905 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-20T23:11:50.314-05:00  INFO 53905 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-20T23:11:50.738-05:00  INFO 53905 --- [main] com.example.travels.TravelsApplication   : Started TravelsApplication in 2.15 seconds (process running for 2.535)
+2023-06-20T23:11:50.742-05:00  INFO 53905 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-20T23:11:50.743-05:00  INFO 53905 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-20T23:11:50.745-05:00  INFO 53905 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-20T23:14:26.474-05:00  INFO 54205 --- [main] com.example.travels.TravelsApplication   : Starting TravelsApplication using Java 17.0.7 with PID 54205 (/home/pipe/Documents/travels/target/classes started by pipe in /home/pipe/Documents/travels)
+2023-06-20T23:14:26.476-05:00  INFO 54205 --- [main] com.example.travels.TravelsApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-20T23:14:26.706-05:00  INFO 54205 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-20T23:14:26.741-05:00  INFO 54205 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 6 JPA repository interfaces.
+2023-06-20T23:14:26.896-05:00  INFO 54205 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-20T23:14:27.010-05:00  INFO 54205 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6631cb64
+2023-06-20T23:14:27.012-05:00  INFO 54205 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-20T23:14:27.036-05:00  INFO 54205 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-20T23:14:27.059-05:00  INFO 54205 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-20T23:14:27.219-05:00  INFO 54205 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-20T23:14:27.698-05:00  INFO 54205 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-20T23:14:27.703-05:00  INFO 54205 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-20T23:14:28.089-05:00  INFO 54205 --- [main] com.example.travels.TravelsApplication   : Started TravelsApplication in 1.88 seconds (process running for 2.241)
+2023-06-20T23:14:28.091-05:00  INFO 54205 --- [main] com.example.travels.TravelsApplication   : Best Travel Application
+2023-06-20T23:14:28.093-05:00  INFO 54205 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-20T23:14:28.094-05:00  INFO 54205 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-20T23:14:28.095-05:00  INFO 54205 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
